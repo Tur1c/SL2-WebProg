@@ -179,7 +179,11 @@
         $alamat = $data["alamat"];
         $pos = $data['kode_pos'];
         $username = (stripslashes($data["username"]));
-        $picture = $data["picture"];
+        if(isset($data["picture"])) {
+            $picture = $data["picture"];
+        } else {
+            $picture = '';
+        }
         return ['nama_depan' => $nama_depan, 'nama_tengah' => $nama_tengah, 'nama_belakang' => $nama_belakang, 'tempat_lahir' => $tempat_lahir, 'tanggal_lahir' => $tanggal_lahir, 'nik' => $nik, 'warga_negara' => $warga_negara, 'email' => $email, 'no_hp' => $telp, 'alamat' => $alamat, 'kode_pos' => $pos, 'username' => $username, 'picture' => $picture];
     }
 ?>
