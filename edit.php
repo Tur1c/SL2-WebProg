@@ -8,7 +8,6 @@
     include "function.php";
     $user = query("SELECT * FROM users WHERE username = '" . $_SESSION['username'] . "'")[0];
     $data = store($user);
-    print_r($data);
     if(isset($_POST["edit"])) {
         if(edit($_POST) > 0) {
             header('Location: profile.php');
