@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Welcome Page */
+.welcome-container{
+    background-color: #e5edeb;
+    border: 10px solid #e5e5e5;
+    height: 100vh;
+}
+
+.welcome-header, .register-header{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.welcome-text {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 3rem;
+}
+
+.button-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5rem;
+    margin-bottom: 14.5rem;
+}
+
+.login-button a, .register-button a {
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+}
+
+.login-button {
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #99d6ed;
+}
+
+.register-button {
+    padding: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #c6ed99;
+}
+
+/* Login Page */
+.login-container {
+    background-color: #fbfdac;
+    border: 10px solid #e5e5e5;
+    height: 100vh;
+}
+
+.login-header {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 3rem;
+}
+
+.form-container {
+    background-color: #ace6fd;
+    margin: auto;
+    justify-content: center;
+    padding: 2rem;
+    align-items: center;
+    display: block;
+    width: 25rem;
+    margin-bottom: 15.3rem;
+    margin-top: 5rem;
+}
+
+.username-input, .password-input {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.back-button-login {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fdd7ac;
+    padding: 0.5rem;
+    width: 100px;
+}
+
+.back-button-login>a {
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+}
+
+.button-input {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+/* Register Page */
+
+.register-container {
+    background-color: #c2f0f7;
+    border: 10px solid #e5e5e5;
+    height: 100vh;
+}
+
+.register-header {
+    font-size: larger;
+}
+
+.form-register-container{
+    width: 100%;
+    margin-bottom: 5.2rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.regis-info {
+    width: 33.33%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center
+}
+
+.register-buttonpage {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+}
+
+.register-buttonpage>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 11pt;
+}
+
+.kembali-register {
+    border: 1px solid #000;
+    background-color: #fdd7ac;
+    border-radius: 3px;
+    box-shadow: rgb(88, 88, 88) 0px 1px 2px;
+    padding: 2px 10px 2px 10px;
+    cursor: pointer;
+    margin-right: 1cm;
+}
+
+
+/* Home Page */
+.home-container, .profile-container {
+    background-color: #cad1ff;
+    border: 10px solid #e5e5e5;
+    height: 100vh;
+}
+
+.home-header, .profile-header {
+    display: flex;
+    background-color: #f9ffca;
+    padding: 20px;
+}
+
+.home-nav-title, .profile-nav-title {
+    width: 40%;
+}
+
+.home-nav-menu, .profile-nav-menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-nav-logout, .profile-nav-logout {
+    width: 10%;
+}
+
+.home-content{
+    height: 509px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-content>p {
+    font-size: larger;
+}
+
+.word-wrap {
+    width: 60%;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+
+
+
+
+
+
+
+
+
